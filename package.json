@@ -1,0 +1,22 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development parcel serv ./src/index.html --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Aakre",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "parcel": "^1.12.4",
+    "sass": "^1.26.10",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
